@@ -1,0 +1,85 @@
+header{
+    background-color: #9b2828;
+    color: white;
+}
+h5{
+    text-align: center;
+    margin: 0;
+}
+h6{
+    margin: 0;
+    text-align: center;
+}
+header u{
+    color: #e07249;
+}
+form{
+    background-color: #f3f1d0;
+}
+#mainTable{
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#mainBody > tr{
+    border: 1px solid black;
+}
+#mainBody > tr > td{
+    border: 1px solid black;
+
+}
+
+.splitCell{
+    width: 100%;
+    border-collapse: collapse;
+}
+.splitCell td{
+    width:50%;
+    border: 0px;
+}
+.splitCell td:nth-child(2n){
+    border-left: 1px solid black;
+}
+
+
+
+.name{
+    width: 30%;
+    float: left;
+}
+.DOB{
+    width: 10%;
+    float: left;
+}
+.innerInner tr{
+    border: 1px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+    border-right: 0px;
+}
+.blue{
+    font-style: italic;
+    color: blue;
+}
+.paperless{
+    font-size: 15px;
+}
+a {
+    color:#a53737;
+}
+.column40px {
+    width: 40%;
+    float: left;
+}
+.column20px {
+    width: 20%;
+    float: left;
+}
+.submit {
+    text-align: center;
+}
+.logo{
+    background-color: purple;
+}
